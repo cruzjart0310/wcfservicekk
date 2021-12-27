@@ -14,6 +14,7 @@ namespace WcfServiceKKreme
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service.svc or Service.svc.cs at the Solution Explorer and start debugging.
     //[ServiceBehavior(AddressFilterMode = AddressFilterMode.Any)]
     //[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
+    [ServiceBehavior(AddressFilterMode = AddressFilterMode.Any)]
     public class Service : IService
     {
         public OperationRepository operation;
@@ -33,14 +34,14 @@ namespace WcfServiceKKreme
             return operation.DeleteCouponById(coupon);
         }
 
-        public ResponseBase<User> ShowUserById(int id)
+        public ResponseBase<User> ShowUserById(string id)
         {
-            return operation.GetUserById(id);
+            return operation.GetUserById(Convert.ToInt32(id));
         }
 
-        public ResponseBase<Coupon> ShowCopuonById(int id)
+        public ResponseBase<Coupon> ShowCopuonById(string id)
         {
-            return operation.GetCouponById(id);
+            return operation.GetCouponById(Convert.ToInt32(id));
         }
 
         public ResponseBase<Coupon> StoreCoupon(Coupon coupon)
