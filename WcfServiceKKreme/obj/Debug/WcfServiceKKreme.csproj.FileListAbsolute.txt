@@ -4,3 +4,9 @@ C:\Users\Arturo Cruz\source\repos\WcfServiceKKreme\WcfServiceKKreme\bin\WcfServi
 C:\Users\Arturo Cruz\source\repos\WcfServiceKKreme\WcfServiceKKreme\obj\Debug\WcfServiceKKreme.csproj.CoreCompileInputs.cache
 C:\Users\Arturo Cruz\source\repos\WcfServiceKKreme\WcfServiceKKreme\obj\Debug\WcfServiceKKreme.dll
 C:\Users\Arturo Cruz\source\repos\WcfServiceKKreme\WcfServiceKKreme\obj\Debug\WcfServiceKKreme.pdb
+C:\Users\rocks\source\repos\wcfservicekk\WcfServiceKKreme\bin\WcfServiceKKreme.dll.config
+C:\Users\rocks\source\repos\wcfservicekk\WcfServiceKKreme\bin\WcfServiceKKreme.dll
+C:\Users\rocks\source\repos\wcfservicekk\WcfServiceKKreme\bin\WcfServiceKKreme.pdb
+C:\Users\rocks\source\repos\wcfservicekk\WcfServiceKKreme\obj\Debug\WcfServiceKKreme.csproj.CoreCompileInputs.cache
+C:\Users\rocks\source\repos\wcfservicekk\WcfServiceKKreme\obj\Debug\WcfServiceKKreme.dll
+C:\Users\rocks\source\repos\wcfservicekk\WcfServiceKKreme\obj\Debug\WcfServiceKKreme.pdb
