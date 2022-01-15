@@ -10,12 +10,12 @@ namespace WcfServiceKKreme.DataAccess
 {
     public class ClsDataBase
     {
-        string connection = "Server=DESKTOP-F9LL8NE\\MSSQLSERVER2;Database=Test;Integrated Security=True";
+        string connectionString = "Server=DESKTOP-F9LL8NE\\MSSQLSERVER2;Database=Test;Integrated Security=True";
 
         public DataTable GetData(string sp, EAction eAction, int param = 0)
         {
             var dt = new DataTable();
-            using (SqlConnection con = new SqlConnection(connection))
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
                 try
                 {
@@ -54,7 +54,7 @@ namespace WcfServiceKKreme.DataAccess
         {
             DateTime date;
             int retorno = 0;
-            using (SqlConnection con = new SqlConnection(connection))
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
                 try
                 {
